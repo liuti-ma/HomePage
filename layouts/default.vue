@@ -1,6 +1,15 @@
 <template>
   <div>
-    <div>Navigation</div>
+    <div class="navbar" href="#page-top">
+      <div>LIU Tianqing</div>
+      <img src="~/assets/linkedIn.jpg" />
+    </div>
+    <nuxt-link to="/about">About</nuxt-link>
+    <nuxt-link to="/experience">Experience</nuxt-link>
+    <nuxt-link to="/education">Education</nuxt-link>
+    <nuxt-link to="/skills">Skills</nuxt-link>
+    <nuxt-link to="/interests">Interests</nuxt-link>
+    <nuxt-link to="/awards">Awards</nuxt-link>
     <nuxt />
   </div>
 </template>
