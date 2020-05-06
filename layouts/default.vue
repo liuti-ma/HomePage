@@ -1,16 +1,19 @@
 <template>
   <div>
     <div class="navbar" href="#page-top">
-      <div>LIU Tianqing</div>
-      <img src="~/assets/linkedIn.jpg" />
+      <img class="img-profile" src="~/assets/linkedIn.jpg" />
     </div>
-    <nuxt-link to="/about">About</nuxt-link>
-    <nuxt-link to="/experience">Experience</nuxt-link>
-    <nuxt-link to="/education">Education</nuxt-link>
-    <nuxt-link to="/skills">Skills</nuxt-link>
-    <nuxt-link to="/interests">Interests</nuxt-link>
-    <nuxt-link to="/awards">Awards</nuxt-link>
-    <nuxt />
+    <div class="navbar-nav">
+      <ul>
+        <nuxt-link to="/about" class="nav-item">About</nuxt-link>
+        <nuxt-link to="/experience" class="nav-item">Experience</nuxt-link>
+        <nuxt-link to="/education" class="nav-item">Education</nuxt-link>
+        <nuxt-link to="/skills" class="nav-item">Skills</nuxt-link>
+        <nuxt-link to="/interests" class="nav-item">Interests</nuxt-link>
+        <nuxt-link to="/awards" class="nav-item">Awards</nuxt-link>
+        <nuxt />
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -61,5 +64,43 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.img-profile {
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  display: block !important;
+  display: flex;
+  margin: auto auto 0;
+  padding: 0.5rem;
+  border-radius: 50% !important;
+}
+
+.navbar {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+  height: 100vh;
+  background-color: #bd5d38 !important;
+}
+
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-item {
+  display: block;
+  color: #fff;
 }
 </style>

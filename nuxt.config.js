@@ -1,8 +1,5 @@
 export default {
-  mode: 'spa',
-  router: {
-    base: '/HomePage/'
-  },
+  mode: 'universal',
   /*
    ** Headers of the page
    */
