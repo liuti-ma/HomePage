@@ -1,107 +1,1 @@
-<template>
-  <div>
-    <div class="navbar" href="#page-top">
-      <img class="img-profile" src="~/assets/linkedIn.jpg" />
-    </div>
-    <div class="navbar-nav">
-      <ul>
-        <nuxt-link to="/about" class="nav-item">About</nuxt-link>
-        <nuxt-link to="/experience" class="nav-item">Experience</nuxt-link>
-        <nuxt-link to="/education" class="nav-item">Education</nuxt-link>
-        <nuxt-link to="/skills" class="nav-item">Skills</nuxt-link>
-        <nuxt-link to="/interests" class="nav-item">Interests</nuxt-link>
-        <nuxt-link to="/awards" class="nav-item">Awards</nuxt-link>
-        <nuxt-link to="/kindle" class="nav-item">kindle</nuxt-link>
-        <nuxt />
-      </ul>
-    </div>
-  </div>
-</template>
-
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
-
-.img-profile {
-  max-width: 10rem;
-  max-height: 10rem;
-  border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  display: block !important;
-  display: flex;
-  margin: auto auto 0;
-  padding: 0.5rem;
-  border-radius: 50% !important;
-}
-
-.navbar {
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  width: 17rem;
-  height: 100vh;
-  background-color: #bd5d38 !important;
-}
-
-.navbar-nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.nav-item {
-  display: block;
-  color: #fff;
-}
-</style>
+<template>  <div>    <div class="navbar navbar-expand-lg navbar-dark fixed-top" href="#page-top">      <img class="img-fluid img-profile mx-auto" src="~/assets/linkedIn.jpg" />      <div class="navbar-nav">        <ul>          <nuxt-link to="/about" class="nav-item">About</nuxt-link>          <nuxt-link to="/experience" class="nav-item">Experience</nuxt-link>          <nuxt-link to="/education" class="nav-item">Education</nuxt-link>          <nuxt-link to="/skills" class="nav-item">Skills</nuxt-link>          <nuxt-link to="/interests" class="nav-item">Interests</nuxt-link>          <nuxt-link to="/awards" class="nav-item">Awards</nuxt-link>          <nuxt-link to="/kindle" class="nav-item">kindle</nuxt-link>        </ul>      </div>    </div>    <nuxt />  </div></template><style>html {  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',    Roboto, 'Helvetica Neue', Arial, sans-serif;  font-size: 16px;  word-spacing: 1px;  -ms-text-size-adjust: 100%;  -webkit-text-size-adjust: 100%;  -moz-osx-font-smoothing: grayscale;  -webkit-font-smoothing: antialiased;  box-sizing: border-box;}*,*:before,*:after {  box-sizing: border-box;  margin: 0;}.button--green {  display: inline-block;  border-radius: 4px;  border: 1px solid #3b8070;  color: #3b8070;  text-decoration: none;  padding: 10px 30px;}.button--green:hover {  color: #fff;  background-color: #3b8070;}.button--grey {  display: inline-block;  border-radius: 4px;  border: 1px solid #35495e;  color: #35495e;  text-decoration: none;  padding: 10px 30px;  margin-left: 15px;}.button--grey:hover {  color: #fff;  background-color: #35495e;}.img-profile {  max-width: 10rem;  max-height: 10rem;  border: 0.5rem solid rgba(255, 255, 255, 0.2);  display: block !important;  display: flex;  margin: auto auto 0;  padding: 0.5rem;  border-radius: 50% !important;}.navbar {  text-align: center;  position: fixed;  top: 0;  left: 0;  display: flex;  flex-direction: column;  width: 17rem;  height: 100vh;  background-color: #bd5d38 !important;}.navbar-nav {  display: -ms-flexbox;  display: flex;  -ms-flex-direction: column;  flex-direction: column;  padding-left: 0;  margin-bottom: 0;  list-style: none;}.nav-item {  display: block;  color: #fff;}</style>

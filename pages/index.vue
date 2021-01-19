@@ -6,7 +6,7 @@
         LIU Tianqing
       </h1>
       <div>Product Manager Moody's Analytics SAS France</div>
-      <div>Something new</div>
+      <div>under construction with VUE</div>
     </div>
   </div>
 </template>
