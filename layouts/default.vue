@@ -11,6 +11,7 @@
         <nuxt-link to="/skills" class="nav-item">Skills</nuxt-link>
         <nuxt-link to="/interests" class="nav-item">Interests</nuxt-link>
         <nuxt-link to="/awards" class="nav-item">Awards</nuxt-link>
+        <nuxt-link to="/kindle" class="nav-item">kindle</nuxt-link>
         <nuxt />
       </ul>
     </div>
