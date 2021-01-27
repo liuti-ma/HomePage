@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\assets\\css",
     "\\layouts",
     "\\pages"
   ],
+  "SelectedNode": "\\assets\\css\\_nav.scss",
   "PreviewInSolutionExplorer": false
 }

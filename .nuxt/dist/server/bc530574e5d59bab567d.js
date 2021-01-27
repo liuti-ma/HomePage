@@ -1,0 +1,1 @@
+exports.ids=[2],exports.modules={36:function(e,t,o){"use strict";o.r(t);var l=o(1),component=Object(l.a)({},void 0,void 0,!1,null,null,"f2aeeaac");t.default=component.exports}};
