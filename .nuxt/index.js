@@ -11,10 +11,10 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_workbox_661236c1 from 'nuxt_plugin_workbox_661236c1' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_nuxticons_103e6cfa from 'nuxt_plugin_nuxticons_103e6cfa' // Source: .\\nuxt-icons.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_7babdfd8 from 'nuxt_plugin_bootstrapvue_7babdfd8' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_axios_e6c03236 from 'nuxt_plugin_axios_e6c03236' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_workbox_1556fee1 from 'nuxt_plugin_workbox_1556fee1' // Source: .\\workbox.js (mode: 'client')
+import nuxt_plugin_nuxticons_2d158d63 from 'nuxt_plugin_nuxticons_2d158d63' // Source: .\\nuxt-icons.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_69804034 from 'nuxt_plugin_bootstrapvue_69804034' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_axios_3e8f91f6 from 'nuxt_plugin_axios_3e8f91f6' // Source: .\\axios.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -53,7 +53,7 @@ async function createApp (ssrContext) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"persoHomePage","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"github transfer"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"persoHomePage"},{"hid":"author","name":"author","content":"liuti"},{"hid":"theme-color","name":"theme-color","content":"#fff"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"persoHomePage"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"persoHomePage"},{"hid":"og:description","name":"og:description","property":"og:description","content":"github transfer"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"\u002Fasset\u002Fcss\u002Fbootstrap.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"\u002Fasset\u002Fcss\u002Fall.min.css"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.7c0c61bd.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64.5f6a36.png"},{"rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512.5f6a36.png","sizes":"512x512"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
+    head: {"title":"persoHomePage","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"github transfer"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"persoHomePage"},{"hid":"author","name":"author","content":"liu tianqing"},{"hid":"theme-color","name":"theme-color","content":"#fff"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"persoHomePage"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"persoHomePage"},{"hid":"og:description","name":"og:description","property":"og:description","content":"github transfer"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"\u002Fasset\u002Fcss\u002Fbootstrap.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"\u002Fasset\u002Fcss\u002Fall.min.css"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.7c0c61bd.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64.5f6a36.png"},{"rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512.5f6a36.png","sizes":"512x512"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
 
     router,
     nuxt: {
@@ -153,20 +153,20 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_workbox_661236c1 === 'function') {
-    await nuxt_plugin_workbox_661236c1(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_1556fee1 === 'function') {
+    await nuxt_plugin_workbox_1556fee1(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxticons_103e6cfa === 'function') {
-    await nuxt_plugin_nuxticons_103e6cfa(app.context, inject)
+  if (typeof nuxt_plugin_nuxticons_2d158d63 === 'function') {
+    await nuxt_plugin_nuxticons_2d158d63(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_7babdfd8 === 'function') {
-    await nuxt_plugin_bootstrapvue_7babdfd8(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_69804034 === 'function') {
+    await nuxt_plugin_bootstrapvue_69804034(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_e6c03236 === 'function') {
-    await nuxt_plugin_axios_e6c03236(app.context, inject)
+  if (typeof nuxt_plugin_axios_3e8f91f6 === 'function') {
+    await nuxt_plugin_axios_3e8f91f6(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first
