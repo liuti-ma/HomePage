@@ -7,7 +7,7 @@
       >
         <div class="w-100">
           <h2 class="mb-5">Interests</h2>
-          <p>
+          <p class="mb-0">
             Outdoor sport ski
           </p>
           <p class="mb-0">
@@ -17,7 +17,7 @@
             Financial market
           </p>
           <p class="mb-0">
-            Cypto monnais
+            Cryptocurrency
           </p>
         </div>
       </section>

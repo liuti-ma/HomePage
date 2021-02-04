@@ -63,7 +63,7 @@
           </li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum
+            Knowledge of the payment / banking / finance industry
           </li>
         </ul>
       </div>
