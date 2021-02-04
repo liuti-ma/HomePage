@@ -4,8 +4,10 @@
     "\\assets",
     "\\assets\\css",
     "\\layouts",
-    "\\pages"
+    "\\pages",
+    "\\pages\\articles",
+    "\\store"
   ],
-  "SelectedNode": "\\assets\\css\\_nav.scss",
+  "SelectedNode": "\\nuxt.config.js",
   "PreviewInSolutionExplorer": false
 }

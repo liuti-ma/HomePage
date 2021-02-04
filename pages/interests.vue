@@ -1,16 +1,26 @@
 <template>
   <div class="container">
     <div>
-      <logo />
-      <h1 class="title">
-        LIU Tianqing
-      </h1>
-      <div>Product Manager Moody's Analytics SAS France</div>
-      <div class="links">
-        <textarea>
-          I am expreienced in leveraging agile framworks to provide a robust synopsis for high level overview
-        </textarea>
-      </div>
+      <section
+        id="interests"
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Interests</h2>
+          <p>
+            Outdoor sport ski
+          </p>
+          <p class="mb-0">
+            Crossfit
+          </p>
+          <p class="mb-0">
+            Financial market
+          </p>
+          <p class="mb-0">
+            Cypto monnais
+          </p>
+        </div>
+      </section>
     </div>
   </div>
 </template>
